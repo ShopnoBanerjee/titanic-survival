@@ -104,6 +104,6 @@ st.markdown('''
             - Radio Communication: Improved regulations for continuous radio watch and distress signal protocols were implemented.
             
             ''')
-
-st.video("https://www.youtube.com/watch?v=bXlalGvxkaY")
+st.subheader("Titanic: The Facts Told By Real Survivors | British Pathé") 
+st.video("https://www.youtube.com/watch?v=_xKDRmhp6lQ")
 
