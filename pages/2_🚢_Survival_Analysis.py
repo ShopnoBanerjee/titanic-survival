@@ -31,7 +31,7 @@ ax.set_title('Distribution of Age')
 ax.set_xlabel('Age')
 ax.set_ylabel('Frequency')
 
-st.pyplot(fig2)
+st.pyplot(fig2,use_container_width=True)
 
 
 
@@ -66,7 +66,7 @@ ax.set_xticks(range(len(pclass_counts)))
 ax.set_xticklabels(pclass_counts.index, rotation=0)
 ax.legend(title='Outcome')
 
-st.pyplot(fig1)
+st.pyplot(fig1,use_container_width=True)
 
 
 
@@ -101,7 +101,7 @@ ax.set_xticklabels(embarked_counts.index, rotation=0)
 ax.legend(title='Outcome')
 
 # Show the plot
-st.pyplot(fig3)
+st.pyplot(fig3,use_container_width=True)
 
 
 
@@ -144,7 +144,7 @@ ax.set_xticklabels(total_family_counts.index, rotation=0)
 ax.legend(title='Outcome')
 
 # Show the plot
-st.pyplot(fig4)
+st.pyplot(fig4,use_container_width=True)
 
 
 
