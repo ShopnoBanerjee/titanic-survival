@@ -149,7 +149,7 @@ if st.button('Predict'):
         st.write_stream(stream_data)
 
     with st.spinner('Prediction Loading...'):
-        time.sleep(2.5)
+        time.sleep(2)
     st.success('Done!')
     
     st.markdown("### Prediction")
